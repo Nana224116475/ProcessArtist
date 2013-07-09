@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>This is the title</title>
+	<style>
+	body {
+		background-color: #FF00FF;
+	}
+	h1 {
+		color: #0000FF;
+		backgroung-color: 00FF00;
+	}
+	</style>
+	<script>
+		window.onload = function() {
+			document.getElementById("Hi").addEventListener("click",function() {
+				alert("Hello there!");
+			}, true);
+		}
+		</script>
+	</head>
+	<body>
+		<%name= "Nana" %>
+		<h1>This is awesome!</h1>
+		<p><strong>Hello</strong>, <%= name %></p>
+		<p><%=Time.now %></p>
+		
