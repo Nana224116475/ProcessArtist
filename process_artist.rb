@@ -3,7 +3,7 @@ require 'ruby-processing'
 class ProcessArtist < Processing::App
 
 	def setup
-		background(255, 0, 255)
+		background(255, 255, 255)
 		@number = "255,0,255"
 		@size = 10 
 		@i = 255
